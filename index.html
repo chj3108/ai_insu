@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>생명보험 vs 손해보험 비교 가이드 | 보험 쉽게 알기</title>
+  <meta name="description" content="생명보험(생보)과 손해보험(손보)의 핵심 차이점, 대표 상품, 상황별 예시, 자주 묻는 질문(FAQ) 및 이해도 퀴즈를 통해 초보자도 쉽게 이해할 수 있는 안내 교육 플랫폼입니다.">
+  <meta name="keywords" content="생명보험, 손해보험, 생보 손보 차이, 종신보험, 자동차보험, 실손의료보험, 보험 비교 가이드">
+
+  <!-- 웹폰트: Pretendard -->
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+
+  <!-- 스타일시트 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 스킵 네비게이션 (웹 접근성) -->
+  <a href="#main-content" class="skip-link">본문 바로가기</a>
+
+  <!-- A. 헤더 -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      <!-- 로고 -->
+      <a href="#hero" class="brand-logo" aria-label="보험 쉽게 알기 홈으로 이동">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          <path d="M9 12l2 2 4-4"/>
+        </svg>
+        <span class="logo-text">보험 쉽게 알기</span>
+      </a>
+
+      <!-- 데스크톱 메뉴 -->
+      <nav class="desktop-nav" aria-label="메인 메뉴">
+        <ul class="nav-list">
+          <li><a href="#differences" class="nav-link">보험의 차이</a></li>
+          <li><a href="#products" class="nav-link">상품 비교</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <!-- 모바일 햄버거 메뉴 버튼 -->
+      <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-expanded="false" aria-controls="mobileNav" aria-label="메뉴 열기">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+
+    <!-- 모바일 드롭다운 메뉴 -->
+    <nav class="mobile-nav" id="mobileNav" aria-label="모바일 메뉴" hidden>
+      <ul class="mobile-nav-list">
+        <li><a href="#differences" class="mobile-nav-link">보험의 차이</a></li>
+        <li><a href="#products" class="mobile-nav-link">상품 비교</a></li>
+        <li><a href="#faq" class="mobile-nav-link">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 본문 영역 -->
+  <main id="main-content">
+
+    <!-- B. 메인 히어로 섹션 -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            초보자를 위한 금융·보험 기초 가이드
+          </div>
+          <h1 class="hero-title">
+            생명보험과 손해보험,<br>
+            <span class="highlight-text">무엇이 다를까요?</span>
+          </h1>
+          <p class="hero-description">
+            비슷해 보이지만 보장 방식과 목적은 달라요.<br>
+            핵심 차이부터 대표 상품까지 쉽게 비교해 보세요.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#differences" class="btn btn-primary" id="btnHeroDiff">
+              차이점 알아보기
+              <svg class="btn-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </a>
+            <a href="#products" class="btn btn-secondary" id="btnHeroProd">
+              대표 상품 비교하기
+            </a>
+          </div>
+        </div>
+
+        <!-- 히어로 영역 상징 비교 카드 (심플 벡터 스타일 아이콘) -->
+        <div class="hero-visual" aria-hidden="true">
+          <!-- 생명보험 상징 카드 -->
+          <div class="hero-card hero-card-life">
+            <div class="card-pill pill-life">생명보험</div>
+            <div class="hero-card-icon-wrap icon-life">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </div>
+            <h3 class="hero-card-title">사람의 생명 &amp; 건강</h3>
+            <p class="hero-card-desc">사망, 생존, 노후 등 인생 전반의 위험을 약정된 금액으로 보호</p>
+            <div class="hero-card-feature">#종신 #정기 #연금</div>
+          </div>
+
+          <div class="hero-vs-badge">VS</div>
+
+          <!-- 손해보험 상징 카드 -->
+          <div class="hero-card hero-card-damage">
+            <div class="card-pill pill-damage">손해보험</div>
+            <div class="hero-card-icon-wrap icon-damage">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 12a11.05 11.05 0 0 0-22 0zm-5 7a3 3 0 0 1-6 0v-7"/>
+              </svg>
+            </div>
+            <h3 class="hero-card-title">사고 &amp; 재산 손해</h3>
+            <p class="hero-card-desc">우연한 사고로 인한 신체·재산의 실제 손해를 보상</p>
+            <div class="hero-card-feature">#자동차 #화재 #실손</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- C. 핵심 차이 비교 섹션 -->
+    <section class="section section-differences" id="differences">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">핵심 비교</span>
+          <h2 class="section-title">생보와 손보, 핵심 차이 한눈에 보기</h2>
+          <p class="section-subtitle">보험의 본질과 보장 방식을 두 축으로 나누어 이해하면 훨씬 명확해집니다.</p>
+        </div>
+
+        <div class="comparison-grid">
+          <!-- 생명보험 카드 -->
+          <article class="core-card core-card-life">
+            <div class="core-card-header">
+              <div class="core-badge life-bg">생명보험 (Life)</div>
+              <div class="core-icon life-color" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
+            </div>
+
+            <ul class="core-details-list">
+              <li class="core-detail-item">
+                <span class="detail-label">핵심 개념</span>
+                <span class="detail-value">사람의 <strong>생명과 사망·생존</strong>에 따른 위험을 보장</span>
+              </li>
+              <li class="core-detail-item">
+                <span class="detail-label">대표적인 상품</span>
+                <span class="detail-value">종신보험, 정기보험, 연금보험</span>
+              </li>
+              <li class="core-detail-item">
+                <span class="detail-label">주요 목적</span>
+                <span class="detail-value">가족의 경제적 보호, 사망 대비, 노후 준비</span>
+              </li>
+              <li class="core-detail-item">
+                <span class="detail-label">보장 방식</span>
+                <span class="detail-value">약관에서 정한 보험금 지급 사유와 조건에 따라 지급</span>
+              </li>
+            </ul>
+
+            <div class="core-summary life-summary">
+              <div class="summary-icon" aria-hidden="true">📌</div>
+              <p class="summary-text"><strong>한 줄 요약 :</strong> "사망·생존·노후 등 인생의 주요 위험에 대비"</p>
+            </div>
+          </article>
+
+          <!-- 손해보험 카드 -->
+          <article class="core-card core-card-damage">
+            <div class="core-card-header">
+              <div class="core-badge damage-bg">손해보험 (Non-Life)</div>
+              <div class="core-icon damage-color" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+            </div>
+
+            <ul class="core-details-list">
+              <li class="core-detail-item">
+                <span class="detail-label">핵심 개념</span>
+                <span class="detail-value">우연한 사고로 발생하는 <strong>신체·재산상의 손해 등</strong>을 보장</span>
+              </li>
+              <li class="core-detail-item">
+                <span class="detail-label">대표적인 상품</span>
+                <span class="detail-value">자동차보험, 화재보험, 운전자보험</span>
+              </li>
+              <li class="core-detail-item">
+                <span class="detail-label">주요 목적</span>
+                <span class="detail-value">사고, 배상책임, 의료비 등 다양한 위험에 대비</span>
+              </li>
+              <li class="core-detail-item">
+                <span class="detail-label">보장 방식</span>
+                <span class="detail-value">실손형은 실제 손해를 기준으로 보상하고 정액형 담보는 약정된 금액을 지급</span>
+              </li>
+            </ul>
+
+            <div class="core-summary damage-summary">
+              <div class="summary-icon" aria-hidden="true">📌</div>
+              <p class="summary-text"><strong>한 줄 요약 :</strong> "사고와 손해 등 일상생활의 다양한 위험에 대비"</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- 겹치는 보장 영역 안내 콜아웃 -->
+        <div class="overlap-notice-card" role="note" aria-label="보장 영역 중복 안내">
+          <div class="notice-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/>
+            </svg>
+          </div>
+          <div class="notice-body">
+            <h3 class="notice-title">잠깐! 보장 영역이 서로 겹칠 수도 있어요</h3>
+            <p class="notice-text">
+              생명보험과 손해보험은 법률상 명확히 구분되어 출발했지만, 실제로는 암 진단비·수술비·실손의료비 등 <strong>질병과 상해를 다루는 제3보험 영역</strong>에서 두 업권의 상품이 겹치는 경우가 많습니다. 
+              따라서 단순히 회사 이름만으로 판단하기보다는, 가입하고자 하는 상품의 구체적인 약관과 보장 조건을 확인하는 것이 좋습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- D. 상세 비교 테이블 -->
+    <section class="section section-comparison" id="comparison">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">상세 스펙</span>
+          <h2 class="section-title">항목별로 자세히 비교해 보세요</h2>
+          <p class="section-subtitle">보험업권의 일반적인 특징을 8개 주요 기준 항목으로 체계화하여 정리했습니다.</p>
+        </div>
+
+        <div class="table-container" tabindex="0" role="region" aria-label="생명보험 손해보험 상세 비교표">
+          <table class="comparison-table">
+            <caption class="sr-only">생명보험과 손해보험의 기본 목적, 주요 보장 영역, 대표 상품, 보상 방식 등 상세 비교표</caption>
+            <thead>
+              <tr>
+                <th scope="col" class="th-criterion">항목</th>
+                <th scope="col" class="th-life">
+                  <span class="badge-header life-bg">생명보험</span>
+                </th>
+                <th scope="col" class="th-damage">
+                  <span class="badge-header damage-bg">손해보험</span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="row-header">기본 목적</th>
+                <td class="td-life">사람의 생명 및 신체에 발생한 위험(사망, 생존 등)에 따른 경제적 위험 보장</td>
+                <td class="td-damage">우연한 사건이나 사고로 발생한 재산적 손해 및 신체적 손실 보전</td>
+              </tr>
+              <tr>
+                <th scope="row" class="row-header">주요 보장 영역</th>
+                <td class="td-life">사망 보장, 노후 연금, 건강 및 중대 질병(암, 뇌혈관, 심장질환 등)</td>
+                <td class="td-damage">사고로 인한 재물 손해, 화재, 자동차 사고, 배상책임, 일상 상해 및 질병</td>
+              </tr>
+              <tr>
+                <th scope="row" class="row-header">대표 상품</th>
+                <td class="td-life">종신보험, 정기보험, 연금보험 등</td>
+                <td class="td-damage">자동차보험, 화재보험, 운전자보험 등</td>
+              </tr>
+              <tr>
+                <th scope="row" class="row-header">사망 보장</th>
+                <td class="td-life">사망의 원인(질병·재해 등)을 넓게 아우르는 일반사망 또는 종신사망을 주계약으로 많이 구성</td>
+                <td class="td-damage">주로 상해사망 중심으로 보장하며, 특약으로 질병사망을 추가할 수 있으나 가입 기간 및 한도에 조건이 있을 수 있음</td>
+              </tr>
+              <tr>
+                <th scope="row" class="row-header">질병 및 상해 보장</th>
+                <td class="td-life">약관에서 정한 질병 진단 시 확정된 금액을 지급하는 정액형 진단비와 수술비 위주로 발달</td>
+                <td class="td-damage">실제 발생한 의료비를 지원하는 실손형 담보와 함께 상해 후유장해 및 진단비 특약이 폭넓게 발달</td>
+              </tr>
+              <tr>
+                <th scope="row" class="row-header">실손 보장</th>
+                <td class="td-life">실손의료보험(제3보험 영역) 취급 가능하며, 중복 가입 시 비례보상 원칙이 적용됨</td>
+                <td class="td-damage">실손의료보험뿐만 아니라 일상생활배상책임, 재물 피해 등 다양한 실손형 담보를 폭넓게 운용</td>
+              </tr>
+              <tr>
+                <th scope="row" class="row-header">보험금 지급 방식</th>
+                <td class="td-life">약관에 정해진 보험사고 발생 시 미리 약정한 금액을 지급하는 <strong>정액 보상</strong>이 기본 구조</td>
+                <td class="td-damage">실제 입은 손해액 한도 내에서 보상하는 <strong>실손 보상</strong>(비례보상)이 기본이며, 일부 진단비 등은 정액 지급</td>
+              </tr>
+              <tr>
+                <th scope="row" class="row-header">가입 시 확인할 사항</th>
+                <td class="td-life">보장 기간(종신 여부), 사망보험금 지급 요건, 해약환급금 유형(무·저해약환급형 등), 갱신 여부</td>
+                <td class="td-damage">실제 손해액 기준 자기부담금 비율, 비례보상에 따른 중복 가입 여부, 면책 손해 및 보상 한도액</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-footnote">
+          * 위 비교표는 보험업권의 일반적인 특징을 설명한 것이며, 특정 보장이 모든 개별 상품에 획일적으로 적용되는 것은 아닙니다. 실제 상품마다 특약 구성을 통해 보장 범위가 달라질 수 있습니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- E. 대표 상품 알아보기 -->
+    <section class="section section-products" id="products">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">상품 탐색</span>
+          <h2 class="section-title">어떤 보험이 있을까요?</h2>
+          <p class="section-subtitle">각 업권의 대표 상품 카드를 클릭하여 상세한 보장 특징을 확인해 보세요.</p>
+        </div>
+
+        <!-- 생명보험 상품 카드 -->
+        <div class="product-category-block">
+          <div class="category-heading">
+            <span class="category-indicator life-bg"></span>
+            <h3 class="category-title">생명보험 대표 상품</h3>
+            <span class="category-desc">생명·건강·노후 위험에 대비하는 상품군</span>
+          </div>
+
+          <div class="product-cards-grid">
+            <!-- 1. 종신보험 -->
+            <article class="product-card" data-category="life">
+              <button type="button" class="product-card-toggle" aria-expanded="false" aria-controls="product-desc-1">
+                <div class="product-card-top">
+                  <div class="product-icon-wrap life-color" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+                      <circle cx="12" cy="7" r="4"/>
+                    </svg>
+                  </div>
+                  <span class="product-badge life-badge">생명보험</span>
+                </div>
+                <h4 class="product-name">종신보험</h4>
+                <p class="product-brief">피보험자의 사망 시 약관에 따라 사망보험금을 지급하는 상품</p>
+                <div class="toggle-indicator">
+                  <span class="toggle-text">상세보기</span>
+                  <svg class="chevron-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </div>
+              </button>
+              <div class="product-card-details" id="product-desc-1" hidden>
+                <div class="details-inner">
+                  <ul class="detail-points">
+                    <li>피보험자의 사망 시 약관에 따라 사망보험금을 지급하는 상품입니다.</li>
+                    <li>일반적으로 평생을 보장 기간으로 설정합니다.</li>
+                    <li>언제 사망하더라도 정해진 보험금이 지급되므로, 가장의 유족 생활자금이나 상속세 재원 등으로 활용됩니다.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <!-- 2. 정기보험 -->
+            <article class="product-card" data-category="life">
+              <button type="button" class="product-card-toggle" aria-expanded="false" aria-controls="product-desc-2">
+                <div class="product-card-top">
+                  <div class="product-icon-wrap life-color" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"/>
+                      <polyline points="12 6 12 12 16 14"/>
+                    </svg>
+                  </div>
+                  <span class="product-badge life-badge">생명보험</span>
+                </div>
+                <h4 class="product-name">정기보험</h4>
+                <p class="product-brief">정해진 보험 기간 동안 사망을 보장하는 상품</p>
+                <div class="toggle-indicator">
+                  <span class="toggle-text">상세보기</span>
+                  <svg class="chevron-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </div>
+              </button>
+              <div class="product-card-details" id="product-desc-2" hidden>
+                <div class="details-inner">
+                  <ul class="detail-points">
+                    <li>정해진 보험 기간(예: 60세, 70세, 10년, 20년 만기 등) 동안 사망을 보장하는 상품입니다.</li>
+                    <li>종신보험에 비해 보험료 부담이 적으며, 자녀 성장기 등 집중 보장이 필요한 시기에 경제적으로 유용합니다.</li>
+                    <li>정해진 보장 기간이 만료된 이후에는 보장이 종료됩니다.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <!-- 3. 연금보험 -->
+            <article class="product-card" data-category="life">
+              <button type="button" class="product-card-toggle" aria-expanded="false" aria-controls="product-desc-3">
+                <div class="product-card-top">
+                  <div class="product-icon-wrap life-color" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="12" y1="1" x2="12" y2="23"/>
+                      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                    </svg>
+                  </div>
+                  <span class="product-badge life-badge">생명보험</span>
+                </div>
+                <h4 class="product-name">연금보험</h4>
+                <p class="product-brief">상품 조건에 따라 노후의 연금 수령을 준비하는 상품</p>
+                <div class="toggle-indicator">
+                  <span class="toggle-text">상세보기</span>
+                  <svg class="chevron-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </div>
+              </button>
+              <div class="product-card-details" id="product-desc-3" hidden>
+                <div class="details-inner">
+                  <ul class="detail-points">
+                    <li>상품 조건에 따라 은퇴 이후 정기적인 연금 수령을 준비하는 금융·보험 상품입니다.</li>
+                    <li>장수 리스크(생존 위험)에 대비하여 안정적인 노후 생활비를 마련하는 데 목적이 있습니다.</li>
+                    <li>공시이율형, 변액형 등 운용 방식에 따른 위험도와 수령 방식을 사전에 검토해야 합니다.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- 손해보험 상품 카드 -->
+        <div class="product-category-block">
+          <div class="category-heading">
+            <span class="category-indicator damage-bg"></span>
+            <h3 class="category-title">손해보험 대표 상품</h3>
+            <span class="category-desc">사고·재산상 손해 및 일상 위험에 대비하는 상품군</span>
+          </div>
+
+          <div class="product-cards-grid four-cols">
+            <!-- 1. 자동차보험 -->
+            <article class="product-card" data-category="damage">
+              <button type="button" class="product-card-toggle" aria-expanded="false" aria-controls="product-desc-4">
+                <div class="product-card-top">
+                  <div class="product-icon-wrap damage-color" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="1" y="3" width="15" height="13"/>
+                      <polygon points="16 8 20 8 23 11 23 16 16 16 8"/>
+                      <circle cx="5.5" cy="18.5" r="2.5"/>
+                      <circle cx="18.5" cy="18.5" r="2.5"/>
+                    </svg>
+                  </div>
+                  <span class="product-badge damage-badge">손해보험</span>
+                </div>
+                <h4 class="product-name">자동차보험</h4>
+                <p class="product-brief">자동차 사고에 따른 배상책임 및 약관상 손해 등을 보장</p>
+                <div class="toggle-indicator">
+                  <span class="toggle-text">상세보기</span>
+                  <svg class="chevron-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </div>
+              </button>
+              <div class="product-card-details" id="product-desc-4" hidden>
+                <div class="details-inner">
+                  <ul class="detail-points">
+                    <li>자동차 사고에 따른 배상책임 및 약관상 손해 등을 보장합니다.</li>
+                    <li>차량 소유자가 의무적으로 가입해야 하는 법정 의무보험(책임보험)을 포함합니다.</li>
+                    <li>발생한 실제 손해액과 과실비율에 따라 지급하는 실손 보상 원칙이 적용됩니다.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <!-- 2. 운전자보험 -->
+            <article class="product-card" data-category="damage">
+              <button type="button" class="product-card-toggle" aria-expanded="false" aria-controls="product-desc-5">
+                <div class="product-card-top">
+                  <div class="product-icon-wrap damage-color" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"/>
+                      <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/>
+                    </svg>
+                  </div>
+                  <span class="product-badge damage-badge">손해보험</span>
+                </div>
+                <h4 class="product-name">운전자보험</h4>
+                <p class="product-brief">교통사고와 관련된 형사적·행정적 비용 등의 일부를 약관에 따라 보장</p>
+                <div class="toggle-indicator">
+                  <span class="toggle-text">상세보기</span>
+                  <svg class="chevron-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </div>
+              </button>
+              <div class="product-card-details" id="product-desc-5" hidden>
+                <div class="details-inner">
+                  <ul class="detail-points">
+                    <li>교통사고와 관련된 형사적·행정적 비용 등의 일부를 약관에 따라 보장합니다.</li>
+                    <li>12대 중과실 사고 발생 시 형사합의금(교통사고처리지원금), 변호사 선임비용, 벌금 등을 지원합니다.</li>
+                    <li>자동차보험(민사상 배상)과는 별도로 운전자 개인의 법적 비용 위험을 보호합니다.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <!-- 3. 화재보험 -->
+            <article class="product-card" data-category="damage">
+              <button type="button" class="product-card-toggle" aria-expanded="false" aria-controls="product-desc-6">
+                <div class="product-card-top">
+                  <div class="product-icon-wrap damage-color" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>
+                    </svg>
+                  </div>
+                  <span class="product-badge damage-badge">손해보험</span>
+                </div>
+                <h4 class="product-name">화재보험</h4>
+                <p class="product-brief">화재 등 약관에서 정한 사고로 발생하는 재산상 손해 등을 보장</p>
+                <div class="toggle-indicator">
+                  <span class="toggle-text">상세보기</span>
+                  <svg class="chevron-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </div>
+              </button>
+              <div class="product-card-details" id="product-desc-6" hidden>
+                <div class="details-inner">
+                  <ul class="detail-points">
+                    <li>화재 등 약관에서 정한 사고로 발생하는 재산상 손해 등을 보장합니다.</li>
+                    <li>건물 자체의 파손뿐만 아니라 내부 가재도구, 집기비품 및 이웃집 피해에 대한 화재배상책임도 담보할 수 있습니다.</li>
+                    <li>실제 목적물의 가액과 손해액을 기준으로 비례 또는 실손 보상합니다.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <!-- 4. 실손의료보험 -->
+            <article class="product-card" data-category="damage">
+              <button type="button" class="product-card-toggle" aria-expanded="false" aria-controls="product-desc-7">
+                <div class="product-card-top">
+                  <div class="product-icon-wrap damage-color" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                    </svg>
+                  </div>
+                  <span class="product-badge damage-badge">손해 &amp; 생명 공통</span>
+                </div>
+                <h4 class="product-name">실손의료보험</h4>
+                <p class="product-brief">보장 대상 의료비 중 약관과 자기부담금 기준에 따라 실제 부담한 의료비를 보상</p>
+                <div class="toggle-indicator">
+                  <span class="toggle-text">상세보기</span>
+                  <svg class="chevron-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </div>
+              </button>
+              <div class="product-card-details" id="product-desc-7" hidden>
+                <div class="details-inner">
+                  <ul class="detail-points">
+                    <li>보장 대상 의료비 중 약관과 자기부담금 기준에 따라 실제 부담한 의료비를 보상합니다.</li>
+                    <li>국민건강보험 본인부담금과 비급여 항목 치료비의 일정 비율을 실손 보상합니다.</li>
+                    <li>중복 가입하더라도 실제 지출된 치료비 한도 내에서 비례 분담 지급됩니다.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- 실손보험 공통 취급 알림 박스 -->
+        <div class="info-callout">
+          <div class="callout-icon" aria-hidden="true">💡</div>
+          <div class="callout-content">
+            <h4 class="callout-title">실손의료보험은 어느 한 업권만의 상품이 아닙니다</h4>
+            <p class="callout-desc">
+              실손의료보험은 생명보험사와 손해보험사 모두 취급할 수 있는 '제3보험' 상품입니다. 금융감독원의 표준약관에 따라 기본 보장 구조는 동일하므로, 어느 한 업권만의 상품인 것처럼 오해하지 않도록 주의해야 합니다. 회사별 보험료 수준, 부가 서비스, 간편 청구 앱 편의성 등을 비교하여 선택하실 수 있습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- F. 상황별 보험 이해하기 -->
+    <section class="section section-situations" id="situations">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">실생활 가이드</span>
+          <h2 class="section-title">이런 상황에서는 어떤 차이가 있을까요?</h2>
+          <p class="section-subtitle">일상에서 겪는 대표적인 4가지 상황을 통해 두 보험의 실제 적용 방식을 확인해 보세요.</p>
+        </div>
+
+        <div class="situations-grid">
+          <!-- 사례 1 -->
+          <article class="situation-card">
+            <div class="situation-header">
+              <div class="situation-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                  <line x1="12" y1="11" x2="12" y2="15"/>
+                  <line x1="10" y1="13" x2="14" y2="13"/>
+                </svg>
+              </div>
+              <span class="case-label">사례 1</span>
+            </div>
+            <h3 class="situation-title">"병원에서 치료를 받았어요."</h3>
+            <p class="situation-desc">
+              실손의료보험은 가입한 상품의 약관과 자기부담금 등에 따라 보장 대상 의료비를 보상할 수 있어요. 
+              진단비처럼 정액으로 지급하는 담보는 별도의 지급 조건을 적용해요.
+            </p>
+            <div class="situation-tip">
+              <strong>핵심 포인트:</strong> 실손은 실제 병원비 지출을 기준으로 비례보상되며, 정액 진단비(암, 심장질환 등)는 질병 확정 시 약정액이 바로 지급됩니다.
+            </div>
+          </article>
+
+          <!-- 사례 2 -->
+          <article class="situation-card">
+            <div class="situation-header">
+              <div class="situation-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  <path d="M12 8v4"/>
+                  <path d="M12 16h.01"/>
+                </svg>
+              </div>
+              <span class="case-label">사례 2</span>
+            </div>
+            <h3 class="situation-title">"가족의 생계를 책임지는 사람이 사망했어요."</h3>
+            <p class="situation-desc">
+              종신보험이나 정기보험 등은 가입 조건과 약관에 따라 유족에게 사망보험금을 지급할 수 있어요. 
+              손해보험에도 사망 보장을 제공하는 상품이나 특약이 있어요.
+            </p>
+            <div class="situation-tip">
+              <strong>핵심 포인트:</strong> 생명보험은 원인과 관계없는 일반사망(주계약) 위주로 설계할 수 있고, 손해보험은 상해사망 특약이나 조건부 질병사망 특약으로 준비할 수 있습니다.
+            </div>
+          </article>
+
+          <!-- 사례 3 -->
+          <article class="situation-card">
+            <div class="situation-header">
+              <div class="situation-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="1" y="3" width="15" height="13"/>
+                  <polygon points="16 8 20 8 23 11 23 16 16 16 8"/>
+                  <circle cx="5.5" cy="18.5" r="2.5"/>
+                  <circle cx="18.5" cy="18.5" r="2.5"/>
+                </svg>
+              </div>
+              <span class="case-label">사례 3</span>
+            </div>
+            <h3 class="situation-title">"자동차 사고가 발생했어요."</h3>
+            <p class="situation-desc">
+              자동차보험은 법령과 약관에 따른 배상책임 및 보장 대상 손해 등을 처리하는 데 중요한 역할을 해요.
+            </p>
+            <div class="situation-tip">
+              <strong>핵심 포인트:</strong> 상대방 피해를 배상하는 민사적 책임은 손해보험사의 자동차보험이 처리하고, 운전자 본인의 형사적 벌금·합의금 위험은 운전자보험이 보완합니다.
+            </div>
+          </article>
+
+          <!-- 사례 4 -->
+          <article class="situation-card">
+            <div class="situation-header">
+              <div class="situation-icon-box" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M16 12l-4-4-4 4M12 16V8"/>
+              </svg>
+            </div>
+            <span class="case-label">사례 4</span>
+          </div>
+          <h3 class="situation-title">"은퇴 이후 생활비를 준비하고 싶어요."</h3>
+          <p class="situation-desc">
+            연금보험 등 다양한 금융·보험 상품을 검토할 수 있으며, 상품별 지급 조건과 비용을 비교해야 해요.
+          </p>
+          <div class="situation-tip">
+            <strong>핵심 포인트:</strong> 장수 리스크에 대응하는 종신 연금 수령 방식은 주로 생명보험사에서 다루며, 세제 적격 연금저축신탁·펀드 등 타 금융권 상품과도 장단점을 비교해야 합니다.
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- G. 간단한 이해도 퀴즈 -->
+  <section class="section section-quiz" id="quiz">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">학습 확인</span>
+        <h2 class="section-title">나는 얼마나 알고 있을까요?</h2>
+        <p class="section-subtitle">간단한 3문제 퀴즈로 오늘 배운 생보와 손보의 차이점을 점검해 보세요.</p>
+      </div>
+
+      <div class="quiz-card" id="quizCard">
+        <!-- 상단 퀴즈 진행 바 -->
+        <div class="quiz-progress-wrap" id="quizProgressWrap">
+          <div class="quiz-progress-text">
+            문제 <span id="currentQuestionNum">1</span> / <span id="totalQuestionsNum">3</span>
+          </div>
+          <div class="quiz-progress-bar" role="progressbar" aria-valuemin="1" aria-valuemax="3" aria-valuenow="1" id="quizProgressBar">
+            <div class="quiz-progress-fill" id="quizProgressFill" style="width: 33.3%;"></div>
+          </div>
+        </div>
+
+        <!-- 문제 영역 -->
+        <div class="quiz-content" id="quizContent">
+          <h3 class="question-text" id="questionText">질문 텍스트가 여기에 표시됩니다.</h3>
+          
+          <fieldset class="options-group" id="optionsGroup">
+            <legend class="sr-only">보기 선택</legend>
+          </fieldset>
+
+          <!-- 피드백 & 해설 영역 -->
+          <div class="quiz-feedback-box" id="quizFeedbackBox" hidden>
+            <div class="feedback-badge" id="feedbackBadge">정답 여부</div>
+            <p class="feedback-explanation" id="feedbackExplanation">해설 내용이 여기에 표시됩니다.</p>
+          </div>
+
+          <!-- 하단 액션 버튼 -->
+          <div class="quiz-actions">
+            <button type="button" class="btn btn-primary" id="quizCheckBtn">정답 확인</button>
+            <button type="button" class="btn btn-secondary" id="quizNextBtn" hidden>다음 문제</button>
+          </div>
+        </div>
+
+        <!-- 퀴즈 결과 화면 (완료 시 표시) -->
+        <div class="quiz-result-view" id="quizResultView" hidden>
+          <div class="result-badge-icon" id="resultIcon">🎉</div>
+          <h3 class="result-title">퀴즈를 모두 완료했습니다!</h3>
+          <div class="result-score-box">
+            <span class="score-number" id="finalScoreText">3</span>
+            <span class="score-total">/ 3 문제 정답</span>
+          </div>
+          <p class="result-comment" id="resultCommentText">
+            생명보험과 손해보험의 핵심 차이를 정확하게 이해하셨습니다!
+          </p>
+          <button type="button" class="btn btn-primary" id="quizRestartBtn">다시 풀기</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- H. 자주 묻는 질문(FAQ) -->
+  <section class="section section-faq" id="faq">
+    <div class="container max-w-narrow">
+      <div class="section-header text-center">
+        <span class="section-tag">궁금증 해결</span>
+        <h2 class="section-title">자주 묻는 질문 (FAQ)</h2>
+        <p class="section-subtitle">보험 가입 전 가장 많이 혼동하거나 질문하시는 내용들을 모았습니다.</p>
+      </div>
+
+      <div class="faq-accordion" id="faqAccordion">
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+          <h3>
+            <button type="button" class="faq-question" id="faq-btn-1" aria-expanded="false" aria-controls="faq-ans-1">
+              <span class="faq-q-badge" aria-hidden="true">Q</span>
+              <span class="faq-question-text">생명보험과 손해보험 중 어떤 것이 더 좋나요?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </button>
+          </h3>
+          <div class="faq-answer" id="faq-ans-1" role="region" aria-labelledby="faq-btn-1" hidden>
+            <div class="faq-answer-inner">
+              <p>
+                어느 한쪽이 일방적으로 우월한 것은 아닙니다. 두 보험은 설계된 목적과 보장 방식이 근본적으로 다릅니다. 
+                가족의 사망 시 경제적 보호나 은퇴 후 안정된 노후가 주 목적이라면 <strong>생명보험</strong>이 적합하며, 
+                자동차 사고, 화재, 일상생활 배상책임 및 실제 병원비 등 예측하기 어려운 손해를 방어하고자 한다면 <strong>손해보험</strong>이 효과적입니다. 
+                가장 이상적인 방법은 본인의 생애주기와 재정 계획에 맞춰 두 영역의 장점을 상호 보완적으로 구성하는 것입니다.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <h3>
+            <button type="button" class="faq-question" id="faq-btn-2" aria-expanded="false" aria-controls="faq-ans-2">
+              <span class="faq-q-badge" aria-hidden="true">Q</span>
+              <span class="faq-question-text">실손의료보험은 생명보험사에서도 가입할 수 있나요?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </button>
+          </h3>
+          <div class="faq-answer" id="faq-ans-2" role="region" aria-labelledby="faq-btn-2" hidden>
+            <div class="faq-answer-inner">
+              <p>
+                네, 가입할 수 있습니다. 실손의료보험은 생명보험사와 손해보험사가 모두 취급할 수 있는 '제3보험' 영역입니다. 
+                금융당국의 표준약관에 따라 입원비, 통원비, 비급여 특약 등의 기본 보장 구조는 모든 보험사가 동일하게 적용됩니다. 
+                따라서 가입 시에는 각 사의 연령별 보험료 수준, 부가 서비스, 간편 청구 앱의 편리성 등을 비교하여 선택하시면 됩니다.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <h3>
+            <button type="button" class="faq-question" id="faq-btn-3" aria-expanded="false" aria-controls="faq-ans-3">
+              <span class="faq-q-badge" aria-hidden="true">Q</span>
+              <span class="faq-question-text">암보험은 생명보험과 손해보험 중 어디에서 가입해야 하나요?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </button>
+          </h3>
+          <div class="faq-answer" id="faq-ans-3" role="region" aria-labelledby="faq-btn-3" hidden>
+            <div class="faq-answer-inner">
+              <p>
+                암보험 또한 생보사와 손보사 모두 다양하게 판매하고 있습니다. 
+                일반적으로 생명보험사의 암보험은 진단 시 지급되는 고액의 정액 진단금을 주계약 중심으로 구성하는 경향이 있으며, 
+                손해보험사의 암보험은 진단금과 함께 수술비, 통원 치료비, 상해 담보 등 다양한 특약을 유연하게 조합할 수 있는 특징이 있습니다. 
+                두 업권의 보장 범위(소액암·유사암 분류 기준)와 갱신/비갱신 조건, 납입 면제 조건 등을 꼼꼼히 비교해 보시는 것을 권장합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <h3>
+            <button type="button" class="faq-question" id="faq-btn-4" aria-expanded="false" aria-controls="faq-ans-4">
+              <span class="faq-q-badge" aria-hidden="true">Q</span>
+              <span class="faq-question-text">생명보험과 손해보험을 함께 가입해도 되나요?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </button>
+          </h3>
+          <div class="faq-answer" id="faq-ans-4" role="region" aria-labelledby="faq-btn-4" hidden>
+            <div class="faq-answer-inner">
+              <p>
+                네, 전혀 문제없으며 실제로 많은 분들이 두 상품을 함께 가입합니다. 
+                예를 들어 생명보험으로는 가장의 조기 사망에 대비하는 종신·정기보험을 마련하고, 
+                손해보험으로는 일상생활의 사고를 방어하는 자동차보험, 운전자보험, 실손의료보험을 가입하는 식입니다. 
+                다만, 실제 발생한 손해만 보상하는 '실손형 담보'는 여러 개 가입해도 중복 보상되지 않고 비례 분담되므로 불필요하게 이중 지출되지 않도록 주의해야 합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item">
+          <h3>
+            <button type="button" class="faq-question" id="faq-btn-5" aria-expanded="false" aria-controls="faq-ans-5">
+              <span class="faq-q-badge" aria-hidden="true">Q</span>
+              <span class="faq-question-text">보험 가입 시 가장 먼저 확인해야 할 것은 무엇인가요?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </button>
+          </h3>
+          <div class="faq-answer" id="faq-ans-5" role="region" aria-labelledby="faq-btn-5" hidden>
+            <div class="faq-answer-inner">
+              <p>
+                가장 먼저 확인해야 할 것은 <strong>'가입 목적'과 '월 지출 가능한 예산'</strong>입니다. 
+                보험은 장기간 유지해야 혜택을 온전히 누릴 수 있으므로 중도 해지하지 않을 수 있는 적정 보험료를 설정해야 합니다. 
+                또한 가입 전에는 반드시 상품설명서와 약관을 통해 <strong>보험금 지급 제한 사유(면책 조항)</strong>, 
+                보장 개시일(면책 기간 및 감액 기간), 갱신 주기 및 갱신 시 보험료 인상 가능성 등을 면밀히 검토해야 합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- I. 하단 안내 및 푸터 -->
+  <section class="section section-disclaimer" aria-label="이용 안내 및 고지사항">
+    <div class="container">
+      <div class="disclaimer-card">
+        <div class="disclaimer-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="12" y1="8" x2="12" y2="12"/>
+            <line x1="12" y1="16" x2="12.01" y2="16"/>
+          </svg>
+        </div>
+        <div class="disclaimer-content">
+          <h4 class="disclaimer-title">안내 말씀</h4>
+          <p class="disclaimer-text">
+            이 웹사이트는 생명보험과 손해보험에 대한 일반적인 이해를 돕기 위한 정보 제공 목적의 사이트입니다. 
+            실제 보장 범위와 보험금 지급 조건은 상품별 약관 및 관련 법령에 따라 달라질 수 있습니다. 
+            보험 가입 전 상품설명서와 약관을 확인해 주세요.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <!-- 푸터 -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="footer-logo-icon" aria-hidden="true">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="M9 12l2 2 4-4"/>
+            </svg>
+            <span>보험 쉽게 알기</span>
+          </div>
+          <p class="footer-slogan">올바른 금융 지식으로 당신의 일상을 든든하게 보호합니다.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="하단 메뉴">
+          <ul class="footer-links">
+            <li><a href="#hero" class="footer-link">처음으로</a></li>
+            <li><a href="#differences" class="footer-link">보험의 차이</a></li>
+            <li><a href="#faq" class="footer-link">FAQ</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 보험 쉽게 알기. All rights reserved. 교육 및 정보 제공 목적으로 제작되었습니다.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 스크립트 연결 -->
+  <script src="script.js"></script>
+</body>
+</html>
